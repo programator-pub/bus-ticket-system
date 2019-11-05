@@ -1,4 +1,4 @@
 package main.java;
 
-public enum Ticket {
+public class Ticket {
 }
