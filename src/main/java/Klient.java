@@ -3,6 +3,12 @@ public class Klient {
     private final String imie;
     private final String nazwisko;
 
+    public Klient(int id, String imie, String nazwisko) {
+        this.id = id;
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+    }
+
     public int getId() {
         return id;
     }
@@ -13,12 +19,6 @@ public class Klient {
 
     public String getNazwisko() {
         return nazwisko;
-    }
-
-    public Klient(int id, String imie, String nazwisko) {
-        this.id = id;
-        this.imie = imie;
-        this.nazwisko = nazwisko;
     }
 
     @Override
