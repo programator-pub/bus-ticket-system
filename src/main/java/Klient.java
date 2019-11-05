@@ -1,3 +1,5 @@
+package main.java;
+
 public class Klient {
     private final int id;
     private final String imie;
